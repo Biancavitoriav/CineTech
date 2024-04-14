@@ -1,0 +1,54 @@
+.selecionado{
+    background-color: rgb(131, 189, 203);
+    cursor: pointer;
+}
+.ocupado{
+    background-color: rgb(243, 106, 106);
+    cursor: not-allowed
+}
+.indisponivel{
+    background-color: #fbb034;
+}
+*{
+    background-color: rgb(236, 233, 225);
+    color: rgb(44, 61, 65);
+}
+table{
+    background-color: rgb(103, 78, 48);
+}
+.botao{
+    margin-top: 5%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(42, 78, 88);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(45, 47, 47);
+}
+#cinema{
+    user-select: none;
+}
+#resumodacompra,#filme{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 70px;
+}
+#pipoca{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#bt_adicionar_pipoca,.nomecomida,#bt_adicionar_refri,#bt_remover_refri,#bt_remover_pipoca{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+#botoes,#tabelaselecionados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(236, 233, 225);
+    color: rgb(44, 61, 65);
+}
+table{
+    background-color: rgb(103, 78, 48);
+}
+.botao{
+    margin-right: 2%;
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(42, 78, 88);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(45, 47, 47);
+}
+#botoes, #tabela, #nomefilme, #formapagamento{
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    color: blue;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar</title>
+    <script src="finalizar.js" defer></script>
+    <link rel="stylesheet" href="finalizar.css">
+    <link rel="shortcut icon" href="../Imagens/cinemaico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Finalizar...</h1>
+    <p id="nomefilme">Filme: </p>
+    <div id="tabela">
+    <table border="1" width="40%">
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <th>🎫</th>
+          <td align="center" id="n-ingressos">0</td>
+          <td align="center" id="valor-ingressos">R$ 0,00</td>
+        </tr>
+        <tr>
+          <th>🍿</th>
+          <td align="center" id="n-pipocas">0</td>
+          <td align="center" id="valor-pipocas">R$ 0,00</td>
+        </tr>
+        <tr>
+          <th>🍹</th>
+          <td align="center" id="n-refris">0</td>
+          <td align="center" id="valor-refris">R$ 0,00</td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td align="center" id="n-total">0</td>
+          <td align="center" id="valor-total">R$ 0,00</td>
+        </tr>
+      </table></div>
+      <br>
+    <div id="formapagamento">
+    <input type="radio" id="pix" name="opcao" class="checkbox"/>
+    <label for="pix">Pix</label>
+    <br>
+    <input type="radio" id="debito" name="opcao" class="checkbox"/>
+    <label for="debito">Débito</label>
+    <br>
+    <input type="radio" id="credito" name="opcao"class=" checkbox"/>
+    <label for="credito">Crédito</label>
+  </div>
+    <br>
+    <div id="botoes">
+    <button class="botao" id="bt_pagar">Pagar</button>  <button class="botao" onclick="window.location.href = '../Comprar/index.html';">Voltar</a></button>
+  </div>
+</body>
+</html>
